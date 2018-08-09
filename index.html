@@ -1,4 +1,131 @@
-<script src="myScript.js"></script>
-<link rel="stylesheet" type="text/css" href="style.css">
-<canvas id="c"></canvas>
-<div class="info">Click to add gravity point.</div>
+<html>
+<head><meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+span.cls_002{font-family:Arial,serif;font-size:17.7px;color:rgb(36,52,70);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_002{font-family:Arial,serif;font-size:17.7px;color:rgb(36,52,70);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_009{font-family:Arial,serif;font-size:43.6px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_009{font-family:Arial,serif;font-size:43.6px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_003{font-family:Arial,serif;font-size:10.4px;color:rgb(68,68,64);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_003{font-family:Arial,serif;font-size:10.4px;color:rgb(68,68,64);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_004{font-family:Arial,serif;font-size:9.4px;color:rgb(68,68,64);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_004{font-family:Arial,serif;font-size:9.4px;color:rgb(68,68,64);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_005{font-family:Arial,serif;font-size:10.4px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_005{font-family:Arial,serif;font-size:10.4px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_006{font-family:Arial,serif;font-size:14.5px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_006{font-family:Arial,serif;font-size:14.5px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_007{font-family:Arial,serif;font-size:9.4px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_007{font-family:Arial,serif;font-size:9.4px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_008{font-family:Arial,serif;font-size:10.4px;color:rgb(36,52,70);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_008{font-family:Arial,serif;font-size:10.4px;color:rgb(36,52,70);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_010{font-family:Arial,serif;font-size:14.6px;color:rgb(245,245,245);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_010{font-family:Arial,serif;font-size:14.6px;color:rgb(245,245,245);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_011{font-family:Arial,serif;font-size:9.4px;color:rgb(245,245,245);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_011{font-family:Arial,serif;font-size:9.4px;color:rgb(245,245,245);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_013{font-family:Arial,serif;font-size:12.5px;color:rgb(36,52,70);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_013{font-family:Arial,serif;font-size:12.5px;color:rgb(36,52,70);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_014{font-family:Arial,serif;font-size:10.4px;color:rgb(68,68,64);font-weight:normal;font-style:normal;text-decoration: none}
+div.cls_014{font-family:Arial,serif;font-size:10.4px;color:rgb(68,68,64);font-weight:normal;font-style:normal;text-decoration: none}
+span.cls_012{font-family:Arial,serif;font-size:10.4px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_012{font-family:Arial,serif;font-size:10.4px;color:rgb(255,255,255);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_015{font-family:Arial,serif;font-size:11.5px;color:rgb(44,52,71);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_015{font-family:Arial,serif;font-size:11.5px;color:rgb(44,52,71);font-weight:bold;font-style:normal;text-decoration: none}
+-->
+</style>
+<script type="text/javascript" src="e87c6a5c-9b9e-11e8-b59b-0cc47a792c0a_id_e87c6a5c-9b9e-11e8-b59b-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+</head>
+<body>
+<div style="position:absolute;left:50%;margin-left:-306px;top:0px;width:612px;height:791px;border-style:outset;overflow:hidden">
+<div style="position:absolute;left:0px;top:0px">
+<img src="e87c6a5c-9b9e-11e8-b59b-0cc47a792c0a_id_e87c6a5c-9b9e-11e8-b59b-0cc47a792c0a_files/background1.jpg" width=612 height=791></div>
+<div style="position:absolute;left:291.00px;top:35.54px" class="cls_002"><span class="cls_002">EDUCATION</span></div>
+<div style="position:absolute;left:26.25px;top:20.29px" class="cls_009"><span class="cls_009">SARTHAK</span></div>
+<div style="position:absolute;left:290.25px;top:63.65px" class="cls_003"><span class="cls_003">GLA UNIVERSITY(2014-present)</span></div>
+<div style="position:absolute;left:290.25px;top:79.76px" class="cls_004"><span class="cls_004">Bachelor of Technology, Computer Science and</span></div>
+<div style="position:absolute;left:26.25px;top:62.29px" class="cls_009"><span class="cls_009">GARG</span></div>
+<div style="position:absolute;left:290.25px;top:94.01px" class="cls_004"><span class="cls_004">Engineering</span></div>
+<div style="position:absolute;left:290.25px;top:108.26px" class="cls_004"><span class="cls_004">CGPA -8.43 (on the scale of 10)</span></div>
+<div style="position:absolute;left:26.25px;top:116.18px" class="cls_005"><span class="cls_005">Email: Sarthakgarg27@gmail.com</span></div>
+<div style="position:absolute;left:26.25px;top:130.43px" class="cls_005"><span class="cls_005">Phone number:+91</span></div>
+<div style="position:absolute;left:142.50px;top:130.43px" class="cls_005"><span class="cls_005">8171596260</span></div>
+<div style="position:absolute;left:290.25px;top:128.15px" class="cls_003"><span class="cls_003">Ess Ess Convent Sr. Sec. School(2014)</span></div>
+<div style="position:absolute;left:26.25px;top:144.68px" class="cls_005"><span class="cls_005">Github: github.com/sarthakgarg27</span></div>
+<div style="position:absolute;left:290.25px;top:147.26px" class="cls_004"><span class="cls_004">12th standard (CBSE)</span></div>
+<div style="position:absolute;left:26.25px;top:158.93px" class="cls_005"><span class="cls_005">Hackerrank: hackerrank.com/sarthak</span></div>
+<div style="position:absolute;left:290.25px;top:161.51px" class="cls_004"><span class="cls_004">Percentage-76.4%</span></div>
+<div style="position:absolute;left:26.25px;top:173.18px" class="cls_005"><span class="cls_005">garg27</span></div>
+<div style="position:absolute;left:290.25px;top:179.90px" class="cls_003"><span class="cls_003">St. Conrad's Inter College(2012)</span></div>
+<div style="position:absolute;left:26.25px;top:194.64px" class="cls_006"><span class="cls_006">ABOUT ME</span></div>
+<div style="position:absolute;left:290.25px;top:199.01px" class="cls_004"><span class="cls_004">10th standard (ICSE)</span></div>
+<div style="position:absolute;left:290.25px;top:213.26px" class="cls_004"><span class="cls_004">Percentage-85.71%</span></div>
+<div style="position:absolute;left:26.25px;top:227.41px" class="cls_007"><span class="cls_007">I am a working professional having</span></div>
+<div style="position:absolute;left:26.25px;top:238.66px" class="cls_007"><span class="cls_007">experience in making scalable</span></div>
+<div style="position:absolute;left:26.25px;top:249.91px" class="cls_007"><span class="cls_007">applications .I wish to work for a firm</span></div>
+<div style="position:absolute;left:290.25px;top:239.54px" class="cls_002"><span class="cls_002">PROJECTS</span></div>
+<div style="position:absolute;left:26.25px;top:261.16px" class="cls_007"><span class="cls_007">where I can enhance my knowledge and</span></div>
+<div style="position:absolute;left:291.00px;top:268.40px" class="cls_008"><span class="cls_008">Chrome selenium Extension(April-May 2018)</span></div>
+<div style="position:absolute;left:26.25px;top:272.41px" class="cls_007"><span class="cls_007">skills.I have hands-on experience of</span></div>
+<div style="position:absolute;left:26.25px;top:283.66px" class="cls_007"><span class="cls_007">l atest</span></div>
+<div style="position:absolute;left:303.14px;top:284.51px" class="cls_004"><span class="cls_004">Made this Chrome extension as intern In Aspiring minds.</span></div>
+<div style="position:absolute;left:26.25px;top:294.91px" class="cls_007"><span class="cls_007">technology and have</span></div>
+<div style="position:absolute;left:303.14px;top:298.76px" class="cls_004"><span class="cls_004">Technologies used: Nodejs, Java, Selenium Webdriver.</span></div>
+<div style="position:absolute;left:26.25px;top:306.16px" class="cls_007"><span class="cls_007">i mplemented them in my</span></div>
+<div style="position:absolute;left:26.25px;top:317.41px" class="cls_007"><span class="cls_007">projects. I consider my self a</span></div>
+<div style="position:absolute;left:290.25px;top:323.15px" class="cls_008"><span class="cls_008">DIGILABS (June 2017 - Present)</span></div>
+<div style="position:absolute;left:26.25px;top:328.66px" class="cls_007"><span class="cls_007">good public speaker and a team</span></div>
+<div style="position:absolute;left:26.25px;top:339.91px" class="cls_007"><span class="cls_007">player.</span></div>
+<div style="position:absolute;left:302.39px;top:339.26px" class="cls_004"><span class="cls_004">Selected by IEDC for funding.</span></div>
+<div style="position:absolute;left:302.39px;top:353.51px" class="cls_004"><span class="cls_004">Technologies used: Nodejs, Docker,redis,mysql</span></div>
+<div style="position:absolute;left:23.25px;top:367.85px" class="cls_010"><span class="cls_010">TRAINING AND INTERNSHIPS</span></div>
+<div style="position:absolute;left:291.00px;top:369.65px" class="cls_008"><span class="cls_008">Event Notifier (Feb 2017 - May 2017)</span></div>
+<div style="position:absolute;left:303.14px;top:385.76px" class="cls_004"><span class="cls_004">Notifies the users via three modes about upcoming</span></div>
+<div style="position:absolute;left:35.39px;top:389.41px" class="cls_011"><span class="cls_011">Internship in Aspiring Minds(April</span></div>
+<div style="position:absolute;left:35.39px;top:400.66px" class="cls_011"><span class="cls_011">2018-May 2018) as a Software</span></div>
+<div style="position:absolute;left:303.14px;top:400.01px" class="cls_004"><span class="cls_004">events</span></div>
+<div style="position:absolute;left:35.39px;top:411.91px" class="cls_011"><span class="cls_011">Developer Intern.</span></div>
+<div style="position:absolute;left:303.14px;top:414.26px" class="cls_004"><span class="cls_004">Technologies used: Python- tornado, google Apis</span></div>
+<div style="position:absolute;left:35.39px;top:423.16px" class="cls_011"><span class="cls_011">Android Application Development (Jun</span></div>
+<div style="position:absolute;left:291.00px;top:428.15px" class="cls_008"><span class="cls_008">Buffer Readers (Jan 2017 - May 2017)</span></div>
+<div style="position:absolute;left:35.39px;top:434.41px" class="cls_011"><span class="cls_011">2016 - Aug 2016), HP Mumbai.</span></div>
+<div style="position:absolute;left:35.39px;top:445.66px" class="cls_011"><span class="cls_011">Android (Jun 2015 - Jul 2015),</span></div>
+<div style="position:absolute;left:303.14px;top:444.26px" class="cls_004"><span class="cls_004">Platform for student to get doubts cleared online.</span></div>
+<div style="position:absolute;left:35.39px;top:456.91px" class="cls_011"><span class="cls_011">Internshala VTC (Online)</span></div>
+<div style="position:absolute;left:303.14px;top:458.51px" class="cls_004"><span class="cls_004">Technologies used: php ,mysql</span></div>
+<div style="position:absolute;left:291.00px;top:478.40px" class="cls_008"><span class="cls_008">Gamerix (Oct 2016 - Dec 2016)</span></div>
+<div style="position:absolute;left:24.00px;top:478.85px" class="cls_010"><span class="cls_010">TECHNICAL SKILLS</span></div>
+<div style="position:absolute;left:303.14px;top:494.51px" class="cls_004"><span class="cls_004">Java based gaming arcade.</span></div>
+<div style="position:absolute;left:36.14px;top:500.41px" class="cls_011"><span class="cls_011">Programming Languages:</span></div>
+<div style="position:absolute;left:36.14px;top:511.66px" class="cls_011"><span class="cls_011">C,Java,python</span></div>
+<div style="position:absolute;left:303.14px;top:508.76px" class="cls_004"><span class="cls_004">Technologies used: Java 8, mysql</span></div>
+<div style="position:absolute;left:36.14px;top:522.91px" class="cls_011"><span class="cls_011">Web development: php, Nodejs,</span></div>
+<div style="position:absolute;left:36.14px;top:534.16px" class="cls_011"><span class="cls_011">javascript, CSS, HTML5, Json, redis</span></div>
+<div style="position:absolute;left:290.25px;top:532.40px" class="cls_008"><span class="cls_008">Tic Tac Toe (Jun 2016)</span></div>
+<div style="position:absolute;left:36.14px;top:545.41px" class="cls_011"><span class="cls_011">Databases: mysql,Oracle 11g</span></div>
+<div style="position:absolute;left:302.39px;top:548.51px" class="cls_004"><span class="cls_004">Uses different algorithm from the classical</span></div>
+<div style="position:absolute;left:36.14px;top:556.66px" class="cls_011"><span class="cls_011">Testing: Selenium Webdriver</span></div>
+<div style="position:absolute;left:302.39px;top:562.76px" class="cls_004"><span class="cls_004">implementation.</span></div>
+<div style="position:absolute;left:36.14px;top:567.91px" class="cls_011"><span class="cls_011">Other: Amazon web services, linux,</span></div>
+<div style="position:absolute;left:36.14px;top:579.16px" class="cls_011"><span class="cls_011">Git, adobe photoshop,Linux</span></div>
+<div style="position:absolute;left:302.39px;top:577.01px" class="cls_004"><span class="cls_004">Technologies used: Android</span></div>
+<div style="position:absolute;left:36.14px;top:590.41px" class="cls_011"><span class="cls_011">Subject of interests: JAVA , Data</span></div>
+<div style="position:absolute;left:36.14px;top:601.66px" class="cls_011"><span class="cls_011">structure,</span></div>
+<div style="position:absolute;left:290.25px;top:600.68px" class="cls_013"><span class="cls_013">Work History</span></div>
+<div style="position:absolute;left:303.74px;top:619.40px" class="cls_014"><span class="cls_014">Aspiring Minds (June 2018-Present):I am currently</span></div>
+<div style="position:absolute;left:23.25px;top:621.65px" class="cls_012"><span class="cls_012">Extra curricular Activities & Achievements</span></div>
+<div style="position:absolute;left:35.39px;top:637.76px" class="cls_007"><span class="cls_007">"DIGILABS" selected by IEDC for funding.</span></div>
+<div style="position:absolute;left:303.74px;top:635.15px" class="cls_014"><span class="cls_014">working as a SDE in Research and development</span></div>
+<div style="position:absolute;left:35.39px;top:652.01px" class="cls_007"><span class="cls_007">Among the Top 15% percentile on Hackerrank.</span></div>
+<div style="position:absolute;left:303.74px;top:650.90px" class="cls_014"><span class="cls_014">department of Aspiring mind. I am responsible for</span></div>
+<div style="position:absolute;left:35.39px;top:666.26px" class="cls_007"><span class="cls_007">Successfully coordinated 45 days Summer</span></div>
+<div style="position:absolute;left:303.74px;top:666.65px" class="cls_014"><span class="cls_014">Selenium and Cucumber integration in Amcat</span></div>
+<div style="position:absolute;left:35.39px;top:680.51px" class="cls_007"><span class="cls_007">training program 2017@ PROJECTOR 2017.</span></div>
+<div style="position:absolute;left:303.74px;top:682.40px" class="cls_014"><span class="cls_014">Automata.</span></div>
+<div style="position:absolute;left:35.39px;top:694.76px" class="cls_007"><span class="cls_007">Successfully coordinated Srijan 2016.</span></div>
+<div style="position:absolute;left:35.39px;top:709.01px" class="cls_007"><span class="cls_007">Successfully coordinated Maitree 2015.</span></div>
+<div style="position:absolute;left:35.39px;top:723.26px" class="cls_007"><span class="cls_007">Participated in Chess competition in Agrata 2016.</span></div>
+<div style="position:absolute;left:35.39px;top:737.51px" class="cls_007"><span class="cls_007">Participated in Jaipuria quiz league.</span></div>
+<div style="position:absolute;left:297.75px;top:768.34px" class="cls_015"><span class="cls_015">SIGNATURE:_________________</span></div>
+</div>
+
+</body>
+</html>
